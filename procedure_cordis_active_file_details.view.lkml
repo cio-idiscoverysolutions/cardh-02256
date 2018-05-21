@@ -37,7 +37,7 @@ view: procedure_cordis_active_file_details {
   }
 
   dimension: revision {
-    type: string
+    type: number
     sql: ${TABLE}.Revision ;;
   }
 
