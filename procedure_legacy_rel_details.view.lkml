@@ -9,6 +9,7 @@ view: procedure_legacy_rel_details {
   dimension: active_vault_object_name {
     type: string
     sql: ${TABLE}."Active Vault Object Name" ;;
+    html:  <a href="https://idssda.looker.com/dashboards/115?MDD%20Archive%20Number={{active_vault_object_name._value | encode_url }}" target="_new">{{value}} ;;
   }
 
   dimension: active_vault_object_revision {
