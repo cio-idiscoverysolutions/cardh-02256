@@ -17,7 +17,7 @@ view: policy_legacy_objects_attribute_details {
   }
 
   dimension: legacy_object_revision {
-    type: string
+    type: number
     sql: ${TABLE}."Legacy Object Revision" ;;
   }
 
