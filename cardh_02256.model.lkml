@@ -128,3 +128,15 @@ explore: validation_documentation_cordis_legacy_file_details {}
 explore: validation_documentation_legacy_objects_attribute_details {}
 
 explore: validation_documentation_legacy_rel_details {}
+
+explore: protocol_all_relationships_details {}
+
+explore: protocol_co_attribute_details {}
+
+explore: protocol_cordis_active_file_details {}
+
+explore: protocol_cordis_legacy_file_details {}
+
+explore: protocol_legacy_objects_attribute_details {}
+
+explore: protocol_legacy_rel_details {}
