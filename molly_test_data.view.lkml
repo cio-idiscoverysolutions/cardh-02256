@@ -71,6 +71,12 @@ view: molly_test_data {
     sql: ${TABLE}.MAKE ;;
   }
 
+  dimension: locno {
+    type: number
+    sql: ${TABLE}.locno ;;
+  }
+
+
   dimension: model {
     type: string
     sql: ${TABLE}.MODEL ;;
