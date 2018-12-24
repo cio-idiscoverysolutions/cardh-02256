@@ -86,6 +86,12 @@ view: molly_test_data {
     sql: ${TABLE}.PageNo ;;
   }
 
+  dimension: plots {
+    type: location
+    sql_latitude:${TABLE}.Lat ;;
+    sql_longitude:${TABLE}.Lng;;
+  }
+
   measure: count {
     type: count
     drill_fields: []

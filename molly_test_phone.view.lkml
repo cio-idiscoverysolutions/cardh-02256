@@ -70,6 +70,12 @@ view: molly_test_phone {
     sql: ${TABLE}.PageNo ;;
   }
 
+  dimension: plots {
+    type: location
+    sql_latitude:${TABLE}.Lat ;;
+    sql_longitude:${TABLE}.Lng;;
+  }
+
   dimension: seizure_time {
     type: string
     sql: ${TABLE}."Seizure Time" ;;
