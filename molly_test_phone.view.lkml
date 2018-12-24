@@ -60,6 +60,11 @@ view: molly_test_phone {
     sql: ${TABLE}.lng ;;
   }
 
+  dimension: locno {
+    type: number
+    sql: ${TABLE}.locno ;;
+  }
+
   dimension: originating_number {
     type: string
     sql: ${TABLE}."Originating Number" ;;
