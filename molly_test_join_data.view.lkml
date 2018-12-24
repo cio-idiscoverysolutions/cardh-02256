@@ -45,6 +45,11 @@ view: molly_test_join_data {
     type: string
     sql: ${TABLE}.UsageType ;;
   }
+  dimension: plots {
+    type: location
+    sql_latitude:${TABLE}.Lat ;;
+    sql_longitude:${TABLE}.Lng;;
+  }
 
   measure: count {
     type: count
