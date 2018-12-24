@@ -143,3 +143,4 @@ explore: protocol_legacy_rel_details {}
 
 explore: molly_test_data {}
 explore: molly_test_phone {}
+explore: molly_test_join_data {}
