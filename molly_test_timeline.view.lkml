@@ -16,6 +16,11 @@ view: molly_test_timeline {
     sql: ${TABLE}.hlfHr ;;
   }
 
+  measure: sum {
+    type: sum
+    drill_fields: []
+  }
+
   measure: count {
     type: count
     drill_fields: []
