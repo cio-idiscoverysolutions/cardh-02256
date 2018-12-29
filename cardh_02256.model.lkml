@@ -145,3 +145,4 @@ explore: molly_test_data {}
 explore: molly_test_phone {}
 explore: molly_test_join_data {}
 explore: molly_test_timeline {}
+explore: molly_test_timeline_auto {}
