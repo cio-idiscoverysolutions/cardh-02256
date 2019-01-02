@@ -22,7 +22,7 @@ view: molly_test_timeline {
       quarter,
       year
     ]
-    sql: ${TABLE}.lcl_time ;;
+    sql: ${TABLE}.hr ;;
   }
   dimension_group: lcl {
     type: time
