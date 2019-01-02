@@ -34,4 +34,10 @@ view: molly_test_timeline {
     type: count
     drill_fields: []
   }
+
+  measure: Cnt {
+    type: sum
+    drill_fields: []
+  }
+
 }
