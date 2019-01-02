@@ -12,7 +12,7 @@ view: molly_test_timeline {
   }
 
   dimension: hr {
-    type: number
+    type: string
     sql: ${TABLE}.hr ;;
   }
 
