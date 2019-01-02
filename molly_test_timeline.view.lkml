@@ -11,11 +11,19 @@ view: molly_test_timeline {
     sql: ${TABLE}.dType ;;
   }
 
-  dimension: hr {
-    type: string
-    sql: ${TABLE}.hr ;;
+  dimension_group: hr {
+    type: time
+    timeframes: [
+      raw,
+      time,
+      date,
+      week,
+      month,
+      quarter,
+      year
+    ]
+    sql: ${TABLE}.lcl_time ;;
   }
-
   dimension_group: lcl {
     type: time
     timeframes: [
